@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cd_p1.xsl"?>
+<catalogo>
+    <!-- CD 1 -->
+    <cd>
+        <titulo>Abbey Road</titulo>
+        <artista>The Beatles</artista>
+        <canciones>
+            <cancion>
+                <titulo>Come Together</titulo>
+                <duracion>4:20</duracion>
+            </cancion>
+            <cancion>
+                <titulo>Something</titulo>
+                <duracion>3:03</duracion>
+            </cancion>
+            <cancion>
+                <titulo>Maxwell's Silver Hammer</titulo>
+                <duracion>3:27</duracion>
+            </cancion>
+            <cancion>
+                <titulo>Oh! Darling</titulo>
+                <duracion>3:26</duracion>
+            </cancion>
+        </canciones>
+        <sello>Apple Records</sello>
+        <anio>1969</anio>
+    </cd>
+
+    <!-- CD 2 -->
+    <cd>
+        <titulo>Dark Side of the Moon</titulo>
+        <artista>Pink Floyd</artista>
+        <canciones>
+            <cancion>
+                <titulo>Speak to Me</titulo>
+                <duracion>1:30</duracion>
+            </cancion>
+            <cancion>
+                <titulo>Time</titulo>
+                <duracion>7:05</duracion>
+            </cancion>
+            <cancion>
+                <titulo>The Great Gig in the Sky</titulo>
+                <duracion>4:45</duracion>
+            </cancion>
+            <cancion>
+                <titulo>Money</titulo>
+                <duracion>6:30</duracion>
+            </cancion>
+        </canciones>
+        <sello>Harvest Records</sello>
+        <anio>1973</anio>
+    </cd>
+
+    <!-- CD 3 -->
+    <cd>
+        <titulo>Born to Run</titulo>
+        <artista>Bruce Springsteen</artista>
+        <canciones>
+            <cancion>
+                <titulo>Thunder Road</titulo>
+                <duracion>4:49</duracion>
+            </cancion>
+            <cancion>
+                <titulo>Born to Run</titulo>
+                <duracion>4:30</duracion>
+            </cancion>
+            <cancion>
+                <titulo>Backstreets</titulo>
+                <duracion>6:30</duracion>
+            </cancion>
+            <cancion>
+                <titulo>Jungleland</titulo>
+                <duracion>9:34</duracion>
+            </cancion>
+        </canciones>
+        <sello>Columbia Records</sello>
+        <anio>1975</anio>
+    </cd>
+
+    <!-- CD 4 -->
+    <cd>
+        <titulo>The Wall</titulo>
+        <artista>Pink Floyd</artista>
+        <canciones>
+            <cancion>
+                <titulo>In the Flesh?</titulo>
+                <duracion>3:19</duracion>
+            </cancion>
+            <cancion>
+                <titulo>The Thin Ice</titulo>
+                <duracion>2:27</duracion>
+            </cancion>
+            <cancion>
+                <titulo>Another Brick in the Wall, Part 1</titulo>
+                <duracion>3:21</duracion>
+            </cancion>
+            <cancion>
+                <titulo>Comfortably Numb</titulo>
+                <duracion>6:24</duracion>
+            </cancion>
+        </canciones>
+        <sello>Harvest Records</sello>
+        <anio>1979</anio>
+    </cd>
+
+    <!-- CD 5 -->
+    <cd>
+        <titulo>Hotel California</titulo>
+        <artista>The Eagles</artista>
+        <canciones>
+            <cancion>
+                <titulo>Hotel California</titulo>
+                <duracion>6:30</duracion>
+            </cancion>
+            <cancion>
+                <titulo>New Kid in Town</titulo>
+                <duracion>5:03</duracion>
+            </cancion>
+            <cancion>
+                <titulo>Life in the Fast Lane</titulo>
+                <duracion>4:29</duracion>
+            </cancion>
+            <cancion>
+                <titulo>Wasted Time</titulo>
+                <duracion>4:16</duracion>
+            </cancion>
+        </canciones>
+        <sello>Asylum Records</sello>
+        <anio>1976</anio>
+    </cd>
+
+    <!-- CD 6 -->
+    <cd>
+        <titulo>Thriller</titulo>
+        <artista>Michael Jackson</artista>
+        <canciones>
+            <cancion>
+                <titulo>Wanna Be Startin' Somethin'</titulo>
+                <duracion>6:02</duracion>
+            </cancion>
+            <cancion>
+                <titulo>Thriller</titulo>
+                <duracion>5:57</duracion>
+            </cancion>
+            <cancion>
+                <titulo>Beat It</titulo>
+                <duracion>4:18</duracion>
+            </cancion>
+            <cancion>
+                <titulo>Billie Jean</titulo>
+                <duracion>4:54</duracion>
+            </cancion>
+        </canciones>
+        <sello>Epic Records</sello>
+        <anio>1982</anio>
+    </cd>
+
+    <!-- CD 7 -->
+    <cd>
+        <titulo>Back in Black</titulo>
+        <artista>AC/DC</artista>
+        <canciones>
+            <cancion>
+                <titulo>Hells Bells</titulo>
+                <duracion>5:12</duracion>
+            </cancion>
+            <cancion>
+                <titulo>Back in Black</titulo>
+                <duracion>4:15</duracion>
+            </cancion>
+            <cancion>
+                <titulo>You Shook Me All Night Long</titulo>
+                <duracion>3:30</duracion>
+            </cancion>
+            <cancion>
+                <titulo>Rock and Roll Ain't Noise Pollution</titulo>
+                <duracion>4:09</duracion>
+            </cancion>
+        </canciones>
+        <sello>Atlantic Records</sello>
+        <anio>1980</anio>
+    </cd>
+
+    <!-- CD 8 -->
+    <cd>
+        <titulo>Led Zeppelin IV</titulo>
+        <artista>Led Zeppelin</artista>
+        <canciones>
+            <cancion>
+                <titulo>Black Dog</titulo>
+                <duracion>4:55</duracion>
+            </cancion>
+            <cancion>
+                <titulo>Rock and Roll</titulo>
+                <duracion>3:40</duracion>
+            </cancion>
+            <cancion>
+                <titulo>Stairway to Heaven</titulo>
+                <duracion>8:02</duracion>
+            </cancion>
+            <cancion>
+                <titulo>When the Levee Breaks</titulo>
+                <duracion>7:08</duracion>
+            </cancion>
+        </canciones>
+        <sello>Atlantic Records</sello>
+        <anio>1971</anio>
+    </cd>
+
+    <!-- CD 9 -->
+    <cd>
+        <titulo>Born in the U.S.A.</titulo>
+        <artista>Bruce Springsteen</artista>
+        <canciones>
+            <cancion>
+                <titulo>Born in the U.S.A.</titulo>
+                <duracion>4:40</duracion>
+            </cancion>
+            <cancion>
+                <titulo>I'm on Fire</titulo>
+                <duracion>2:37</duracion>
+            </cancion>
+            <cancion>
+                <titulo>Glory Days</titulo>
+                <duracion>4:15</duracion>
+            </cancion>
+            <cancion>
+                <titulo>Dancing in the Dark</titulo>
+                <duracion>4:00</duracion>
+            </cancion>
+        </canciones>
+        <sello>Columbia Records</sello>
+        <anio>1984</anio>
+    </cd>
+
+    <!-- CD 10 -->
+    <cd>
+        <titulo>Rumours</titulo>
+        <artista>Fleetwood Mac</artista>
+        <canciones>
+            <cancion>
+                <titulo>Go Your Own Way</titulo>
+                <duracion>3:38</duracion>
+            </cancion>
+            <cancion>
+                <titulo>Dreams</titulo>
+                <duracion>4:17</duracion>
+            </cancion>
+            <cancion>
+                <titulo>The Chain</titulo>
+                <duracion>4:29</duracion>
+            </cancion>
+            <cancion>
+                <titulo>Landslide</titulo>
+                <duracion>3:19</duracion>
+            </cancion>
+        </canciones>
+        <sello>Warner Bros. Records</sello>
+        <anio>1977</anio>
+    </cd>
+</catalogo>
