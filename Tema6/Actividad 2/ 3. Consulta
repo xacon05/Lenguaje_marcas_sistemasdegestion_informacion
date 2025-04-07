@@ -1,0 +1,5 @@
+distinct-values(
+  for $baile in doc("DB_BailesDeSalon.xml")//baile
+  where $baile/precio/@cuota = "mensual"
+  return $baile/profesor
+)
