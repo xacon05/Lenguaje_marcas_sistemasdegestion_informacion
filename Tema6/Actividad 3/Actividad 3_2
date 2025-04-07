@@ -1,0 +1,7 @@
+for $libro in /libros/libro
+where $libro/páginas > 500
+return <libro>
+  <titulo>{ $libro/titulo }</titulo>
+  <autor>{ $libro/autor }</autor>
+  <páginas>{ $libro/páginas }</páginas>
+</libro>

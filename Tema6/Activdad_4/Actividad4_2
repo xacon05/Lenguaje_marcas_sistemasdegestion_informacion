@@ -1,0 +1,35 @@
+declare namespace html = "http://www.w3.org/1999/xhtml";
+
+let $libros := doc("C:/Users/PC/OneDrive/Escritorio/Lenguaje de marcas/Tema6/biblioteca.xml")//biblioteca/libro[paginas > 150]
+
+return
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Lista de Libros con más de 150 páginas</title>
+  </head>
+  <body>
+    <table border="1">
+      <tr>
+        <th>Titulo</th>
+        <th>Autor</th>
+        <th>Año</th>
+        <th>Editorial</th>
+        <th>Páginas</th>
+      </tr>
+      {
+        for $libro in $libros
+        return
+          <tr>
+            <td>{ data($libro/titulo) }</td>
+            <td>{ data($libro/autor) }</td>
+            <td>{ data($libro/anio) }</td>
+            <td>{ data($libro/editorial) }</td>
+            <td>{ data($libro/paginas) }</td>
+          </tr>
+      }
+    </table>
+  </body>
+</html>
+
+
+

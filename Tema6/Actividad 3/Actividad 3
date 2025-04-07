@@ -1,0 +1,7 @@
+for $libro in /libros/libro
+return <libro>
+  <titulo>{ $libro/titulo }</titulo>
+  <autor>{ $libro/autor }</autor>
+  <páginas>{ $libro/páginas }</páginas>
+</libro>
+
