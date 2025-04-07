@@ -1,0 +1,31 @@
+
+declare namespace html="http://www.w3.org/1999/xhtml";
+
+let $libros := //biblioteca/libro  (: Seleccionamos todos los libros :)
+
+return
+  <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+      <title>Lista de Libros</title>
+    </head>
+    <body>
+      <table border="1">
+        <tr>
+          <th>Título</th>
+          <th>Autor</th>
+          <th>Año</th>
+          <th>Editorial</th>
+        </tr>
+        {
+          for $libro in $libros
+          return
+            <tr>
+              <td>{ $libro/titulo/text() }</td>
+              <td>{ $libro/autor/text() }</td>
+              <td>{ $libro/anio/text() }</td>
+              <td>{ $libro/editorial/text() }</td>
+            </tr>
+        }
+      </table>
+    </body>
+  </html>
