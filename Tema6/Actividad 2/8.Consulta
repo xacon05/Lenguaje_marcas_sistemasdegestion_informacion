@@ -1,0 +1,38 @@
+<html>
+  <body>
+    <table border="1">
+      <tr>
+        <th>Baile</th>
+        <th>Profesor</th>
+        <th>Plazas</th>
+      </tr>
+      {
+        let $nuevo :=
+          <baile id="7">
+            <nombre>Foxtrot</nombre>
+            <precio cuota="mensual" moneda="dolares">22</precio>
+            <plazas>14</plazas>
+            <comienzo>01/01/2012</comienzo>
+            <fin>31/07/2012</fin>
+            <profesor>Angel Correllada</profesor>
+            <sala>3</sala>
+          </baile>
+        return
+          <tr>
+            <td>{ $nuevo/nombre/text() }</td>
+            <td>{ $nuevo/profesor/text() }</td>
+            <td>{ $nuevo/plazas/text() }</td>
+          </tr>
+      }
+      {
+        for $baile in doc("DB_BailesDeSalon.xml")//baile[@id != "7"]
+        return
+          <tr>
+            <td>{ $baile/nombre/text() }</td>
+            <td>{ $baile/profesor/text() }</td>
+            <td>{ $baile/plazas/text() }</td>
+          </tr>
+      }
+    </table>
+  </body>
+</html>
