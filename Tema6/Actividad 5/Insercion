@@ -1,0 +1,9 @@
+insert node 
+<libro>
+  <titulo>El Alquimista</titulo>
+  <autor>Paulo Coelho</autor>
+  <anio>189</anio> <!-- Dato erróneo -->
+  <editorial>HarperCollins</editorial>
+  <paginas>208</paginas>
+</libro>
+into doc("biblioteca.xml")/biblioteca

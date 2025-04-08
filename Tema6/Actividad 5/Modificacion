@@ -1,0 +1,3 @@
+replace value of node 
+doc("biblioteca.xml")/biblioteca/libro[titulo = 'El Alquimista']/anio 
+with 1989

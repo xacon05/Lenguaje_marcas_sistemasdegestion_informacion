@@ -1,0 +1,2 @@
+delete node 
+doc("biblioteca.xml")/biblioteca/libro[titulo = 'El Alquimista']
