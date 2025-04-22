@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Mi Blog de Desarrollo</title>
+    <link>https://www.miblogdev.com</link>
+    <description>Noticias y tutoriales sobre desarrollo web</description>
+
+    <item>
+      <title>Guía completa de Flexbox</title>
+      <link>https://www.miblogdev.com/flexbox</link>
+      <description>Aprende cómo usar Flexbox en tus diseños web.</description>
+      <pubDate>Mon, 22 Apr 2025 10:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+      <title>Introducción a React</title>
+      <link>https://www.miblogdev.com/react-intro</link>
+      <description>Todo lo que necesitas saber para comenzar con React.js</description>
+      <pubDate>Tue, 15 Apr 2025 08:30:00 +0000</pubDate>
+    </item>
+
+  </channel>
+</rss>
