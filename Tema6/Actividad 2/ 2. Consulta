@@ -1,3 +1,0 @@
-for $baile in doc("DB_BailesDeSalon.xml")//baile
-where $baile/sala = 2 and xs:decimal($baile/precio) < 35
-return $baile
