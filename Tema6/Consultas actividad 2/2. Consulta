@@ -1,0 +1,2 @@
+for $b in doc("DB_BailesDeSalon.xml")//baile[sala = "2" and number(precio) < 35]
+return $b

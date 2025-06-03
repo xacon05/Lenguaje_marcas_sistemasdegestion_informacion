@@ -1,0 +1,15 @@
+<html>
+  <body>
+    <table border="1">
+      <tr><th>Nombre</th><th>Profesor</th><th>Plazas</th></tr>
+      {
+        for $b in doc("DB_BailesDeSalon.xml")//baile
+        return <tr>
+          <td>{data($b/nombre)}</td>
+          <td>{data($b/profesor)}</td>
+          <td>{data($b/plazas)}</td>
+        </tr>
+      }
+    </table>
+  </body>
+</html>

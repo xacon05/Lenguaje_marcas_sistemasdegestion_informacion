@@ -1,0 +1,2 @@
+for $b in doc("DB_BailesDeSalon.xml")//baile[precio/@cuota = "mensual"]
+return <profesor>{data($b/profesor)}</profesor>
